@@ -1,0 +1,944 @@
+[ 2016-03-01T00:31:31+08:00 ] ::1 /index.php/Home/Index/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019431s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000313s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000809s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.146303s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.146716s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011437s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011863s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013591s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014260s ]
+
+[ 2016-03-01T00:31:33+08:00 ] ::1 /index.php/Home/Index/get_news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001835s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004526s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0247s ]
+SQL: SELECT * FROM `news` ORDER BY create_time LIMIT 8   [ RunTime:0.0012s ]
+
+[ 2016-03-01T00:32:34+08:00 ] ::1 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000273s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004905s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004481s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\Program Files (x86)\wamp\www\wyds\webComp\Home\Controller\IndexController.class.php on line 6 and defined C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000580s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.092345s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093438s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002453s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008190s ]
+
+[ 2016-03-01T00:33:36+08:00 ] ::1 /index.php/Home/Index/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000130s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005506s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000289s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000753s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.095562s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096498s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002016s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005472s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006129s ]
+
+[ 2016-03-01T00:33:37+08:00 ] ::1 /index.php/Home/Index/get_news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001984s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003054s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0239s ]
+SQL: SELECT * FROM `news` ORDER BY create_time LIMIT 8   [ RunTime:0.0015s ]
+
+[ 2016-03-01T00:34:20+08:00 ] ::1 /index.php/Home/Index/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001998s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004865s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000275s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000711s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049054s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049478s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005891s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007160s ]
+
+[ 2016-03-01T00:34:21+08:00 ] ::1 /index.php/Home/Index/get_news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001994s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004641s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0218s ]
+SQL: SELECT * FROM `news` ORDER BY create_time desc LIMIT 8   [ RunTime:0.0011s ]
+
+[ 2016-03-01T12:45:13+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004007s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004309s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\Program Files (x86)\wamp\www\wyds\webComp\Home\Controller\IndexController.class.php on line 6 and defined C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000536s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061983s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062411s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002993s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003377s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005558s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006330s ]
+
+[ 2016-03-01T12:46:54+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005270s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\Program Files (x86)\wamp\www\wyds\webComp\Home\Controller\IndexController.class.php on line 6 and defined C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000731s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001246s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.181853s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.224574s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003720s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013009s ]
+
+[ 2016-03-01T12:50:00+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000681s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006610s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\Program Files (x86)\wamp\www\wyds\webComp\Home\Controller\IndexController.class.php on line 6 and defined C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000989s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001799s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078150s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078612s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002890s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003517s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006151s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007040s ]
+
+[ 2016-03-01T12:52:49+08:00 ] ::1 /index.php/Home/Index/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007812s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000548s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001270s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.119622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.122166s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008102s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005076s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005794s ]
+
+[ 2016-03-01T12:52:50+08:00 ] ::1 /index.php/Home/Index/get_news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003071s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0257s ]
+SQL: SELECT * FROM `news` ORDER BY create_time desc LIMIT 8   [ RunTime:0.0011s ]
+
+[ 2016-03-01T12:52:52+08:00 ] ::1 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008689s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\Program Files (x86)\wamp\www\wyds\webComp\Home\Controller\IndexController.class.php on line 6 and defined C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000567s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001228s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.135404s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.136009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003271s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004247s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015820s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017067s ]
+
+[ 2016-03-01T19:20:35+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003969s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005751s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\Program Files (x86)\wamp\www\wyds\webComp\Home\Controller\IndexController.class.php on line 6 and defined C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000949s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001735s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.095505s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096337s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003710s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006044s ]
+
+[ 2016-03-01T19:22:35+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002009s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004386s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\Program Files (x86)\wamp\www\wyds\webComp\Home\Controller\IndexController.class.php on line 6 and defined C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000519s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000892s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051168s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001703s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002035s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009002s ]
+
+[ 2016-03-01T19:22:46+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008625s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\Program Files (x86)\wamp\www\wyds\webComp\Home\Controller\IndexController.class.php on line 6 and defined C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000516s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000924s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068151s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068611s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001907s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002279s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003983s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004572s ]
+
+[ 2016-03-01T19:23:08+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000142s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008839s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\Program Files (x86)\wamp\www\wyds\webComp\Home\Controller\IndexController.class.php on line 6 and defined C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001014s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004782s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.171950s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.172865s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008682s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009559s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006117s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007043s ]
+
+[ 2016-03-01T19:24:28+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000146s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002941s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004520s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\Program Files (x86)\wamp\www\wyds\webComp\Home\Controller\IndexController.class.php on line 6 and defined C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000548s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065293s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065708s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002619s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008416s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008937s ]
+
+[ 2016-03-01T19:30:08+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001825s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007351s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\Program Files (x86)\wamp\www\wyds\webComp\Home\Controller\IndexController.class.php on line 6 and defined C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001466s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002241s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.099612s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.100497s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011830s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012546s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011006s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015220s ]
+
+[ 2016-03-01T19:31:41+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.046158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.046963s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\Program Files (x86)\wamp\www\wyds\webComp\Home\Controller\IndexController.class.php on line 6 and defined C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000610s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.169172s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.170071s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002651s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007746s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008205s ]
+
+[ 2016-03-01T19:31:54+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000115s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002742s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014042s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\Program Files (x86)\wamp\www\wyds\webComp\Home\Controller\IndexController.class.php on line 6 and defined C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001628s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.302720s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.303156s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001689s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002033s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007840s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008219s ]
+
+[ 2016-03-01T19:32:20+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001771s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001474s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\Program Files (x86)\wamp\www\wyds\webComp\Home\Controller\IndexController.class.php on line 6 and defined C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000242s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000457s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033071s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033296s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001739s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002002s ]
+
+[ 2016-03-01T19:33:04+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000106s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007767s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\Program Files (x86)\wamp\www\wyds\webComp\Home\Controller\IndexController.class.php on line 6 and defined C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000508s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000832s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062225s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062652s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001541s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001906s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004903s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005438s ]
+
+[ 2016-03-01T19:33:50+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004208s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\Program Files (x86)\wamp\www\wyds\webComp\Home\Controller\IndexController.class.php on line 6 and defined C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000653s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000975s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.099072s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.100382s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002698s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003196s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012033s ]
+
+[ 2016-03-01T19:34:15+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000149s ]
+INFO: [ app_init ] --END-- [ RunTime:0.024178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006811s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\Program Files (x86)\wamp\www\wyds\webComp\Home\Controller\IndexController.class.php on line 6 and defined C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000647s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001216s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.194909s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.196305s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007383s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014444s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.017665s ]
+INFO: [ app_end ] --END-- [ RunTime:0.019357s ]
+
+[ 2016-03-01T19:35:13+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005043s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\Program Files (x86)\wamp\www\wyds\webComp\Home\Controller\IndexController.class.php on line 6 and defined C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000716s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001208s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060545s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060884s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001583s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001867s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005714s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009511s ]
+
+[ 2016-03-01T19:39:28+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014105s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\Program Files (x86)\wamp\www\wyds\webComp\Home\Controller\IndexController.class.php on line 6 and defined C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000843s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001467s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.098533s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.098915s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002922s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004397s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004946s ]
+
+[ 2016-03-01T19:39:53+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000192s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008772s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\Program Files (x86)\wamp\www\wyds\webComp\Home\Controller\IndexController.class.php on line 6 and defined C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002253s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003012s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.250677s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.263591s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012418s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013359s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012660s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013461s ]
+
+[ 2016-03-01T19:39:57+08:00 ] ::1 /index.php/Home/Index/before.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000765s ]
+INFO: [ app_init ] --END-- [ RunTime:0.032602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010042s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000459s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004594s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.138698s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.139820s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009672s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010856s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010417s ]
+
+[ 2016-03-01T19:40:11+08:00 ] ::1 /index.php/Home/Index/before.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003368s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000286s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000868s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034249s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034904s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002286s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002807s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002647s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003063s ]
+
+[ 2016-03-01T19:40:12+08:00 ] ::1 /index.php/Home/Index/before.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000212s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002754s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004979s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000902s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001712s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043884s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044608s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002827s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003512s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005331s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005911s ]
+
+[ 2016-03-01T19:40:14+08:00 ] ::1 /index.php/Home/Index/before.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000131s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005247s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000364s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068966s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070031s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003315s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004049s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006257s ]
+
+[ 2016-03-01T19:40:17+08:00 ] ::1 /index.php/Home/Index/before.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000147s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002888s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005098s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000381s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040363s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041100s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003808s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004850s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005587s ]
+
+[ 2016-03-01T19:49:25+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002804s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002973s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\Program Files (x86)\wamp\www\wyds\webComp\Home\Controller\IndexController.class.php on line 6 and defined C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001880s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.101880s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.102385s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002948s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004279s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.017711s ]
+INFO: [ app_end ] --END-- [ RunTime:0.019313s ]
+
+[ 2016-03-01T19:58:29+08:00 ] ::1 /index.php/Home/Index/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000150s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004981s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007374s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000541s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.134757s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.135599s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003607s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004957s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006454s ]
+
+[ 2016-03-01T19:58:29+08:00 ] ::1 /index.php/Home/Index/get_news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000153s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003463s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `news` ORDER BY create_time desc LIMIT 8   [ RunTime:0.0012s ]
+
+[ 2016-03-01T19:58:36+08:00 ] ::1 /index.php/Home/Index/before.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000130s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013730s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000680s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001965s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.086264s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087333s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008272s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005118s ]
+
+[ 2016-03-01T19:58:40+08:00 ] ::1 /index.php/Home/Index/get_news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004111s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0239s ]
+SQL: SELECT * FROM `news` ORDER BY create_time desc LIMIT 8   [ RunTime:0.0012s ]
+
+[ 2016-03-01T19:58:42+08:00 ] ::1 /index.php/Home/Index/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000153s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003730s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004212s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000249s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000650s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033776s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034195s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004666s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003158s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003710s ]
+
+[ 2016-03-01T19:58:42+08:00 ] ::1 /index.php/Home/Index/get_news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000126s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013371s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0195s ]
+SQL: SELECT * FROM `news` ORDER BY create_time desc LIMIT 8   [ RunTime:0.0010s ]
+
+[ 2016-03-01T19:59:44+08:00 ] ::1 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000148s ]
+INFO: [ app_init ] --END-- [ RunTime:0.024532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013252s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\Program Files (x86)\wamp\www\wyds\webComp\Home\Controller\IndexController.class.php on line 6 and defined C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.005769s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.007730s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.200140s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.204185s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002672s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006464s ]
+
+[ 2016-03-01T20:02:38+08:00 ] ::1 /index.php/Home/Index/add_contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002873s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003107s ]
+
+[ 2016-03-01T20:27:17+08:00 ] ::1 /index.php/Home/Index/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016548s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000427s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.097974s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.098393s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005637s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007789s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008049s ]
+
+[ 2016-03-01T20:27:17+08:00 ] ::1 /index.php/Home/Index/get_news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002184s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `news` ORDER BY create_time desc LIMIT 8   [ RunTime:0.0007s ]
+
+[ 2016-03-01T20:52:39+08:00 ] ::1 /index.php/Home/Index/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009199s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000239s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000720s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053129s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053536s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003338s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003948s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002806s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003153s ]
+
+[ 2016-03-01T20:52:40+08:00 ] ::1 /index.php/Home/Index/get_news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001895s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004720s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0207s ]
+SQL: SELECT * FROM `news` ORDER BY create_time desc LIMIT 8   [ RunTime:0.0011s ]
+
+[ 2016-03-01T20:52:48+08:00 ] ::1 /index.php/Home/Index/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001967s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000258s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000678s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045096s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045752s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002837s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003493s ]
+
+[ 2016-03-01T20:52:48+08:00 ] ::1 /index.php/Home/Index/get_news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005705s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0229s ]
+SQL: SELECT * FROM `news` ORDER BY create_time desc LIMIT 8   [ RunTime:0.0020s ]
+
+[ 2016-03-01T20:53:17+08:00 ] ::1 /index.php/Home/Index/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003505s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000230s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000580s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038187s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038563s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001371s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001720s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007808s ]
+
+[ 2016-03-01T20:53:18+08:00 ] ::1 /index.php/Home/Index/get_news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000979s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001598s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0144s ]
+SQL: SELECT * FROM `news` ORDER BY create_time desc LIMIT 8   [ RunTime:0.0011s ]
+
+[ 2016-03-01T21:13:12+08:00 ] ::1 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000162s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030035s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\Program Files (x86)\wamp\www\wyds\webComp\Home\Controller\IndexController.class.php on line 6 and defined C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003985s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.240554s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.241030s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002415s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007590s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006216s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006684s ]
+

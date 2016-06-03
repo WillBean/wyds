@@ -1,0 +1,473 @@
+[ 2016-02-25T14:25:42+08:00 ] ::1 /wyds/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001629s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003662s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002007s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002562s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035963s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036408s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002621s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002726s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003119s ]
+
+[ 2016-02-25T17:46:01+08:00 ] ::1 /wyds/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001881s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005032s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\Program Files (x86)\wamp\www\wyds\webComp\Home\Controller\IndexController.class.php on line 6 and defined C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000192s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000601s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001842s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002266s ]
+ERR: 1146:Table 'webcomp.webcomp' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcomp`
+ERR: 1146:Table 'webcomp.webcomp' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcomp`
+
+[ 2016-02-25T19:24:13+08:00 ] ::1 /wyds/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010211s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\Program Files (x86)\wamp\www\wyds\webComp\Home\Controller\IndexController.class.php on line 6 and defined C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000546s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061779s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062276s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002086s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002539s ]
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.0283s ]
+ERR: Think\Model:submit_contact方法不存在！
+
+[ 2016-02-25T19:25:07+08:00 ] ::1 /wyds/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000135s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003461s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\Program Files (x86)\wamp\www\wyds\webComp\Home\Controller\IndexController.class.php on line 6 and defined C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000181s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000656s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036491s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037216s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001723s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002775s ]
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.0208s ]
+ERR: Think\Model:submit_contact方法不存在！
+
+[ 2016-02-25T19:25:27+08:00 ] ::1 /wyds/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004081s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\Program Files (x86)\wamp\www\wyds\webComp\Home\Controller\IndexController.class.php on line 6 and defined C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000319s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000788s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042376s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043759s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002213s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002863s ]
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.0290s ]
+ERR: Think\Model:submit_contact方法不存在！
+
+[ 2016-02-25T19:25:28+08:00 ] ::1 /wyds/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004760s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\Program Files (x86)\wamp\www\wyds\webComp\Home\Controller\IndexController.class.php on line 6 and defined C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000293s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000714s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032748s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033185s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003577s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008987s ]
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.0265s ]
+ERR: Think\Model:submit_contact方法不存在！
+
+[ 2016-02-25T19:30:16+08:00 ] ::1 /wyds/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000256s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005762s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\Program Files (x86)\wamp\www\wyds\webComp\Home\Controller\IndexController.class.php on line 6 and defined C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000356s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002462s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035452s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035927s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007628s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008360s ]
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.0254s ]
+ERR: Think\Model:submit_contact方法不存在！
+
+[ 2016-02-25T19:49:39+08:00 ] ::1 /wyds/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001973s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004063s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\Program Files (x86)\wamp\www\wyds\webComp\Home\Controller\IndexController.class.php on line 6 and defined C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000227s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000673s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036958s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037580s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004765s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005636s ]
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.0292s ]
+ERR: Think\Model:submit_contact方法不存在！
+
+[ 2016-02-25T19:53:39+08:00 ] ::1 /wyds/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000145s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002812s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003892s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\Program Files (x86)\wamp\www\wyds\webComp\Home\Controller\IndexController.class.php on line 6 and defined C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000228s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000747s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032650s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001778s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002469s ]
+NOTIC: [8] Undefined variable: Contact C:\Program Files (x86)\wamp\www\wyds\webComp\Home\Controller\IndexController.class.php 第 18 行.
+
+[ 2016-02-25T19:53:54+08:00 ] ::1 /wyds/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002808s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\Program Files (x86)\wamp\www\wyds\webComp\Home\Controller\IndexController.class.php on line 6 and defined C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000274s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000796s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037454s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037909s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002299s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002947s ]
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.0267s ]
+ERR: Think\Model:submit_contact方法不存在！
+
+[ 2016-02-25T20:01:42+08:00 ] ::1 /wyds/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000165s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011900s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\Program Files (x86)\wamp\www\wyds\webComp\Home\Controller\IndexController.class.php on line 6 and defined C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000205s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000686s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049617s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050497s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003651s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005691s ]
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.0261s ]
+ERR: Think\Model:submit_contact方法不存在！
+
+[ 2016-02-25T20:42:53+08:00 ] ::1 /wyds/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002841s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\Program Files (x86)\wamp\www\wyds\webComp\Home\Controller\IndexController.class.php on line 6 and defined C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000192s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000596s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027666s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028822s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001961s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002529s ]
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.0230s ]
+SQL: INSERT INTO `contact` () VALUES () [ RunTime:0.0048s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003580s ]
+
+[ 2016-02-25T20:49:09+08:00 ] ::1 /wyds/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001997s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004385s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\Program Files (x86)\wamp\www\wyds\webComp\Home\Controller\IndexController.class.php on line 6 and defined C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000232s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000669s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027967s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028473s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001866s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002277s ]
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.0227s ]
+SQL: INSERT INTO `contact` () VALUES () [ RunTime:0.0066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003628s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004236s ]
+
+[ 2016-02-25T20:49:41+08:00 ] ::1 /wyds/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000335s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004417s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\Program Files (x86)\wamp\www\wyds\webComp\Home\Controller\IndexController.class.php on line 6 and defined C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000323s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001037s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036137s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036860s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003338s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003877s ]
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.0245s ]
+SQL: INSERT INTO `contact` () VALUES () [ RunTime:0.0033s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002581s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003002s ]
+
+[ 2016-02-25T20:51:07+08:00 ] ::1 /wyds/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000168s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002943s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\Program Files (x86)\wamp\www\wyds\webComp\Home\Controller\IndexController.class.php on line 6 and defined C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000194s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000647s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033247s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033854s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002271s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002667s ]
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.0220s ]
+SQL: INSERT INTO `contact` () VALUES () [ RunTime:0.0033s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003357s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004302s ]
+
+[ 2016-02-25T20:51:34+08:00 ] ::1 /wyds/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005181s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\Program Files (x86)\wamp\www\wyds\webComp\Home\Controller\IndexController.class.php on line 6 and defined C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000202s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000668s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028953s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029375s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001746s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002167s ]
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.0221s ]
+SQL: INSERT INTO `contact` () VALUES () [ RunTime:0.0052s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003998s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004890s ]
+
+[ 2016-02-25T20:51:40+08:00 ] ::1 /wyds/index.php/Home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001936s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004460s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\Program Files (x86)\wamp\www\wyds\webComp\Home\Controller\IndexController.class.php on line 6 and defined C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001738s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002182s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031276s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031736s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001778s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002154s ]
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.0232s ]
+SQL: INSERT INTO `contact` () VALUES () [ RunTime:0.0039s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004284s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005010s ]
+
+[ 2016-02-25T20:51:45+08:00 ] ::1 /wyds/index.php/Home/Index/get_contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000138s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003352s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\Program Files (x86)\wamp\www\wyds\webComp\Home\Controller\IndexController.class.php on line 24 and defined C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000245s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000690s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035326s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001929s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002553s ]
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.0238s ]
+SQL: SELECT * FROM `contact`  [ RunTime:0.0013s ]
+
+[ 2016-02-25T20:51:57+08:00 ] ::1 /wyds/index.php/Home/Index/get_contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000242s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003877s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003332s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\Program Files (x86)\wamp\www\wyds\webComp\Home\Controller\IndexController.class.php on line 24 and defined C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+ERR: 模板不存在:./webComp/Home/View/Index/get_contact.html
+
+[ 2016-02-25T20:52:05+08:00 ] ::1 /wyds/index.php/Home/Index/get_contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003097s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\Program Files (x86)\wamp\www\wyds\webComp\Home\Controller\IndexController.class.php on line 24 and defined C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000335s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041994s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042907s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002997s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003741s ]
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.0217s ]
+SQL: SELECT * FROM `contact`  [ RunTime:0.0013s ]
+
+[ 2016-02-25T20:52:29+08:00 ] ::1 /wyds/index.php/Home/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000140s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002477s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\Program Files (x86)\wamp\www\wyds\webComp\Home\Controller\IndexController.class.php on line 6 and defined C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000279s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000800s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032701s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033465s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002506s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003063s ]
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.0235s ]
+SQL: INSERT INTO `contact` () VALUES () [ RunTime:0.0031s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002785s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003186s ]
+
+[ 2016-02-25T20:52:52+08:00 ] ::1 /wyds/index.php/Home/Index/get_contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000317s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004516s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\Program Files (x86)\wamp\www\wyds\webComp\Home\Controller\IndexController.class.php on line 24 and defined C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\Program Files (x86)\wamp\www\wyds\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000212s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000676s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040055s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040564s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002988s ]
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.0296s ]
+SQL: SELECT * FROM `contact`  [ RunTime:0.0019s ]
+
